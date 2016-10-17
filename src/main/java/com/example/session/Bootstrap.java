@@ -5,8 +5,8 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.context.web.SpringBootServletInitializer;
 import org.springframework.context.annotation.ImportResource;
 
-//@ImportResource({ "classpath:/META-INF/spring/spring-security.xml",
-//	"classpath:/META-INF/spring/applicationContext.xml", })
+@ImportResource({ "classpath:/META-INF/spring/spring-security.xml",
+	"classpath:/META-INF/spring/applicationContext.xml", })
 public class Bootstrap extends SpringBootServletInitializer {
 
 	@Override
