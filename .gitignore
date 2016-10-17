@@ -1,0 +1,12 @@
+.settings
+target
+.classpath
+.project
+*/.gitignore
+.idea
+*.iml
+*~
+*.swp
+.mvn
+.springBeans
+**/log
