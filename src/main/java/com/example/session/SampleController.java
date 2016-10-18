@@ -8,10 +8,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class SampleController {
 
 	@RequestMapping(value = "/", method = {RequestMethod.GET, RequestMethod.POST})
-	public String viewIndex(){
+	public String redirect(){
 		return "redirect:session";
 	}
-
 	@RequestMapping(value = "/session", method = {RequestMethod.GET, RequestMethod.POST})
 	public String hello(){
 		return "session/index";
